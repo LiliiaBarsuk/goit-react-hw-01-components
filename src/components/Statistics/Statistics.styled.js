@@ -6,7 +6,6 @@ const color = () => {
 
 export const StatisticsContainer = styled.section`
    width: 500px;
-   padding-top: 20px;
    border-radius: 4px;
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
       0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -19,6 +18,7 @@ export const Title = styled.h2`
   font-size: 30px;
   color: grey;
   margin-bottom: 30px;
+  padding-top: 20px;
 `;
 
 export const StatList = styled.ul`
